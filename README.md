@@ -21,7 +21,7 @@ This repository includes the datasources used for the analysis in https://arxiv.
   - Time: The time that the message has been posted on the Telegram channel.
   - Coin: The coin that is the target of the pump operation.
   
-- Price Extracts: `Telegram/classified/coin-pump.csv` includes the price extracted from Telegram messages corresponding to a pump attempt. Each record has the following fields:
+- Price Extracts: `Telegram/classified/price_extract.csv` includes the price extracted from Telegram messages corresponding to a pump attempt. Each record has the following fields:
   - Message ID: The id of the message provoking a pump attempt.
   - Channel ID: The id of the channel that the message has been posted on.
   - Date: The date that the message has been posted on the Telegram channel.
